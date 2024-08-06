@@ -9,7 +9,6 @@ GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')
 REPOSITORY = os.getenv("REPOSITORY")
 PR_NUMBER = int(os.getenv("PR_NUMBER"))
 PRJ_NAME = os.getenv("PRJ_NAME")
-# GitHubのPull Request API URL
 PR_API_URL = f'https://api.github.com/repos/{REPOSITORY}/pulls/{PR_NUMBER}'
 
 
